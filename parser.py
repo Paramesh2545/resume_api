@@ -135,7 +135,7 @@ def extract_experience(text):
 #----Extract skills----------
 def extract_skills(text):
     text_lower = text.lower()
-
+    print("hello this is extract skills function")
     detected_tech = [skill for skill in TECH_SKILLS if skill in text_lower]
     detected_soft = [skill for skill in SOFT_SKILLS if skill in text_lower]
 
