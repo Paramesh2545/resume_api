@@ -1,0 +1,68 @@
+# ---------------------
+# Python
+# ---------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# ---------------------
+# Virtual Environment
+# ---------------------
+venv/
+env/
+ENV/
+.venv/
+
+# ---------------------
+# OS Specific Files
+# ---------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------
+# FastAPI / Uvicorn
+# ---------------------
+*.log
+
+# ---------------------
+# Uploads / Temp Files
+# ---------------------
+uploads/
+tmp/
+temp/
+*.tmp
+
+# ---------------------
+# SpaCy Model Cache
+# ---------------------
+*.whl
+spacy_data/
+
+# If spaCy downloads model into project folder
+en_core_web_sm/
+en_core_web_md/
+en_core_web_lg/
+
+# ---------------------
+# PyMuPDF Temporary Files
+# ---------------------
+*.pdf~
+*.xod
+*.pgm
+
+# ---------------------
+# VSCode / IDE
+# ---------------------
+.vscode/
+.idea/
+
+# ---------------------
+# Byte-compiled / cache
+# ---------------------
+*.egg-info/
+.eggs/
+dist/
+build/
